@@ -1,0 +1,34 @@
+{
+  "name": "webpulsa_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "sequelize": "^4.42.0",
+    "socket.io": "^2.2.0",
+    "tedious": "^3.0.1",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "nodemon": "^1.18.9"
+  }
+}
